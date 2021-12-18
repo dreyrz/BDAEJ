@@ -11,9 +11,10 @@ class InfoRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: [const SizedBox(
-              height: 8,
-            ),
+      children: [
+        const SizedBox(
+          height: 8,
+        ),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -31,4 +32,3 @@ class InfoRow extends StatelessWidget {
     );
   }
 }
-
